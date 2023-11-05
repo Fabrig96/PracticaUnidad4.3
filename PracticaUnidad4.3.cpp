@@ -37,7 +37,7 @@ int main() {
 			if ( sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
 				
 				sf::Vector2i posicionMouse = sf::Mouse::getPosition(App); //Obtener posición de mouse respecto a la ventana
-				rcircle_positions.push_back(App.mapPixelToCoords(posicionMouse)); //Guardar posición del sprite respecto a posición de mouse
+				rcircle_positions.push_back(App.mapPixelToCoords(posicionMouse)); //Guardar posición respecto a posición del mouse
 
 			}
 			if (sf::Mouse::isButtonPressed(sf::Mouse::Right)) {
